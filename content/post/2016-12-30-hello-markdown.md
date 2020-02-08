@@ -43,5 +43,3 @@ remember to change the baseurl = "/" parameter in the config.toml file
 
 5. Every time you push new content to the GitHub repo, Netlify will automatically rebuild and deploy your site. And Voila go forth and blog!
 
-
-
