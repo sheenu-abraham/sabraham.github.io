@@ -41,5 +41,5 @@ remember to change the baseurl = "/" parameter in the config.toml file*
 
      **Your site can now be found at sitename.netlify.com!**
 
-5. Every time you push new content to the GitHub repo, Netlify will automatically rebuild and deploy your site. And Voila go forth and blog!
+5. Every time you push new content to the GitHub repo, Netlify will automatically rebuild and deploy your site. And Voila unleash the blogger in you!
 
