@@ -25,17 +25,17 @@ paginate = 10
   #dateFormat = "02 Jan 2006, 15:04"
 
 [menu]
-  # Shown in the side menu.
-  #[[menu.main]]
-  #  name = "Home"
+  #Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
    
-   # pre = "<i class='fa fa-home fa-fw'></i>"
+    pre = "<i class='fa fa-home fa-fw'></i>"
     
-    #weight = 1
+    weight = 1
     
-    #identifier = "home"
+    identifier = "home"
     
-    #url = "/"
+    url = "/"
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
