@@ -6,4 +6,4 @@ blogdown::install_hugo(force = TRUE)
 
 blogdown::new_site()
 
-install_theme("kishaningithub/hugo-creative-portfolio-theme", theme_example = TRUE, update_config = TRUE)
+install_theme("yoshiharuyamashita/blackburn", theme_example = TRUE, update_config = TRUE)

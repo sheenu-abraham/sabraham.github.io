@@ -1,6 +1,9 @@
----
-date: "2016-05-05T21:48:51-07:00"
-title: About
----
++++
+title = "About"
+date = "2014-04-09"
+sidemenu = "true"
+description = "All about me"
++++
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+A comp sci/statistician/data scientist dabbling in everything!
+Thanks for reading!

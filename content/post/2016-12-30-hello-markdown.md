@@ -1,24 +1,43 @@
 ---
-date: "2016-12-30T21:49:57-07:00"
-title: A Plain Markdown Post
+title: "Make your own blog with blogdown"
+date: '2020-02-08T21:49:57-07:00'
 ---
 
-This is a post written in plain Markdown (`*.md`) instead of R Markdown (`*.Rmd`). The major differences are:
 
-1. You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```` ```{r} ````);
-2. A plain Markdown post is rendered through [Blackfriday](https://gohugo.io/overview/configuration/), and an R Markdown document is compiled by [**rmarkdown**](http://rmarkdown.rstudio.com) and [Pandoc](http://pandoc.org).
+1. Start a new github repository for your website and name it anything you like. 
 
-There are many differences in syntax between Blackfriday's Markdown and Pandoc's Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:
+2. Use the R package blogdown to design your page with Hugo. 
 
-- [x] Write an R package.
-- [ ] Write a book.
-- [ ] ...
-- [ ] Profit!
+The details are as follows:
 
-Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme ([hugo-lithium](https://github.com/yihui/hugo-lithium)) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: `` `$ $` ``; display style: `` `$$ $$` ``), e.g., `$S_n = \sum_{i=1}^n X_i$`.^[This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., `\$50 and $100` renders "\$50 and $100".] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.
++ Create a local folder that is synced up to your currently empty github repo
 
-When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the `ext` argument of the function `blogdown::new_post()`, e.g.
++ Create a project and do the following :
 
-```r
-blogdown::new_post("Post Title", ext = '.Rmd')
-```
+*install.packages("blogdown")
+library(blogdown)
+blogdown::install_hugo(force = TRUE)
+blogdown::new_site()
+install_theme("yoshiharuyamashita/blackburn", theme_example = TRUE, update_config = TRUE)*
+
+
+3. Push all the changes (including content etc) to your Github repo
+
+4. To deploy your website for free , go to netlify, and hit “New site from Git”.
+
++ Set the Continuous Deployment Git provider to GitHub (or whichever provider you use).
+
++ Choose the repository containing your website.
+
++ Set the Build command to hugo_0.19 (or whichever version you want), and the Publish directory to “public” (this is the folder in which Hugo by default puts the actual webpage files when it’s built).
+
++ Hit “Deploy site”.
+
++  To the site name to something you actually remember go to *“Change site name”*
+
+     **Your site can now be found at sitename.netlify.com!**
+
+5. Every time you push new content to the GitHub repo, Netlify will automatically rebuild and deploy your site. And Voila go forth and blog!
+
+
+
