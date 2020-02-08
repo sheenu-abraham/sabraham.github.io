@@ -1,9 +1,11 @@
 +++
 title = "About"
-date = "2014-04-09"
+date = "2020-02-08"
 sidemenu = "true"
-description = "All about me"
+description = "All things me"
 +++
 
-A comp sci/statistician/data scientist dabbling in everything!
+An engineer/statistician/data scientist mom of 2 dabbling in a few things!
+
+
 Thanks for reading!

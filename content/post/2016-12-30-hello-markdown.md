@@ -22,9 +22,6 @@ install_theme("yoshiharuyamashita/blackburn", theme_example = TRUE, update_confi
 remember to change the baseurl = "/" parameter in the config.toml file*
 
 
-
-
-
 3. Push all the changes (including content etc) to your Github repo
 
 4. To deploy your website for free , go to netlify, and hit “New site from Git”.

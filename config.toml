@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Musings of an #RLady"
+title = "Musing of an RLady"
 theme = "blackburn"
 author = "Yoshiharu Yamashita"
 copyright = "&copy; 2016. All rights reserved."
@@ -13,28 +13,21 @@ paginate = 10
 
 [params]
   # Shown in the home page
- #subtitle = "A Hugo Theme"
-  
+ # subtitle = "A Hugo Theme"
   #brand = "Blackburn"
-  
-  #Checkout the posts!
-  #googleAnalytics = "Your Google Analytics tracking ID"
-  #disqus = "Your Disqus shortname"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
   # CSS name for highlight.js
-  #highlightjs = "androidstudio"
-  #dateFormat = "02 Jan 2006, 15:04"
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
 
 [menu]
-  #Shown in the side menu.
+  # Shown in the side menu.
   [[menu.main]]
     name = "Home"
-   
     pre = "<i class='fa fa-home fa-fw'></i>"
-    
     weight = 1
-    
     identifier = "home"
-    
     url = "/"
   [[menu.main]]
     name = "Posts"
@@ -48,20 +41,17 @@ paginate = 10
     weight = 3
     identifier = "about"
     url = "/about/"
- # [[menu.main]]
-  
+  #[[menu.main]]
   #  name = "Contact"
    # pre = "<i class='fa fa-phone fa-fw'></i>"
-  
-  #  weight = 4
-  #  url = "/contact/"
+    #weight = 4
+    #url = "/contact/"
 
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
   #twitter = "*"
   #facebook = "*"
-  
   #instagram = "*"
   github = "sabraham-sea"
   #stackoverflow = "*"
