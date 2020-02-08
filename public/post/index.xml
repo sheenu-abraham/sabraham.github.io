@@ -26,19 +26,5 @@
   *install.packages(&amp;ldquo;blogdown&amp;rdquo;) library(blogdown) blogdown::install_hugo(force = TRUE) blogdown::new_site() install_theme(&amp;ldquo;yoshiharuyamashita/blackburn&amp;rdquo;, theme_example = TRUE, update_config = TRUE) remember to change the baseurl = &amp;ldquo;/&amp;rdquo; parameter in the config.</description>
     </item>
     
-    <item>
-      <title>Make your own blog with blogdown</title>
-      <link>/post/2016-12-30-hello-markdown.utf8/</link>
-      <pubDate>Sat, 08 Feb 2020 21:49:57 -0700</pubDate>
-      
-      <guid>/post/2016-12-30-hello-markdown.utf8/</guid>
-      <description>Start a new github repository for your website and name it anything you like.
-  Use the R package blogdown to design your page with Hugo.
-  The details are as follows:
-  Create a local folder that is synced up to your currently empty github repo
-  Create a project and do the following :
-  *install.packages(&amp;ldquo;blogdown&amp;rdquo;) library(blogdown) blogdown::install_hugo(force = TRUE) blogdown::new_site() install_theme(&amp;ldquo;yoshiharuyamashita/blackburn&amp;rdquo;, theme_example = TRUE, update_config = TRUE) remember to change the baseurl = &amp;ldquo;/&amp;rdquo; parameter in the config.</description>
-    </item>
-    
   </channel>
 </rss>
