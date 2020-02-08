@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Musings of an #RLady"
+#title = "Musings of an #RLady"
 theme = "blackburn"
 author = "Yoshiharu Yamashita"
 copyright = "&copy; 2016. All rights reserved."
@@ -37,7 +37,7 @@ paginate = 10
     
     #url = "/"
   [[menu.main]]
-    name = "Posts"
+    name = "Musings of an #RLady"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
