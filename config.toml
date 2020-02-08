@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Musing of an RLady"
+title = "Musing of an #RLady"
 theme = "blackburn"
 author = "Yoshiharu Yamashita"
 copyright = "&copy; 2016. All rights reserved."
@@ -15,11 +15,11 @@ paginate = 10
   # Shown in the home page
  # subtitle = "A Hugo Theme"
   #brand = "Blackburn"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+    #googleAnalytics = "Your Google Analytics tracking ID"
+    #disqus = "Your Disqus shortname"
   # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+    #highlightjs = "androidstudio"
+    #dateFormat = "02 Jan 2006, 15:04"
 
 [menu]
   # Shown in the side menu.
@@ -28,7 +28,7 @@ paginate = 10
     pre = "<i class='fa fa-home fa-fw'></i>"
     weight = 1
     identifier = "home"
-    url = "/"
+    url = "/home/"
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
