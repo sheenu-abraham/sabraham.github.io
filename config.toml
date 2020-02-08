@@ -11,12 +11,13 @@ paginate = 10
   tag = "tags"
   topic = "topics"
 
-#[params]
+[params]
   # Shown in the home page
  #subtitle = "A Hugo Theme"
   
   #brand = "Blackburn"
   
+  #Checkout the posts!
   #googleAnalytics = "Your Google Analytics tracking ID"
   #disqus = "Your Disqus shortname"
   # CSS name for highlight.js
@@ -25,12 +26,16 @@ paginate = 10
 
 [menu]
   # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
+  #[[menu.main]]
+  #  name = "Home"
+   
+   # pre = "<i class='fa fa-home fa-fw'></i>"
+    
+    #weight = 1
+    
+    #identifier = "home"
+    
+    #url = "/"
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"

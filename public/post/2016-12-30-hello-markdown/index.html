@@ -70,12 +70,6 @@
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
           <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
       
         </li>
@@ -232,11 +226,12 @@
 <p>Create a project and do the following :</p>
 </li>
 </ul>
-<p><em>install.packages(&ldquo;blogdown&rdquo;)
+<p>*install.packages(&ldquo;blogdown&rdquo;)
 library(blogdown)
 blogdown::install_hugo(force = TRUE)
 blogdown::new_site()
-install_theme(&ldquo;yoshiharuyamashita/blackburn&rdquo;, theme_example = TRUE, update_config = TRUE)</em></p>
+install_theme(&ldquo;yoshiharuyamashita/blackburn&rdquo;, theme_example = TRUE, update_config = TRUE)
+remember to change the baseurl = &ldquo;/&rdquo; parameter in the config.toml file</p>
 <ol start="3">
 <li>
 <p>Push all the changes (including content etc) to your Github repo</p>

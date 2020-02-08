@@ -18,7 +18,11 @@ The details are as follows:
 library(blogdown)
 blogdown::install_hugo(force = TRUE)
 blogdown::new_site()
-install_theme("yoshiharuyamashita/blackburn", theme_example = TRUE, update_config = TRUE)*
+install_theme("yoshiharuyamashita/blackburn", theme_example = TRUE, update_config = TRUE)
+remember to change the baseurl = "/" parameter in the config.toml file
+
+
+
 
 
 3. Push all the changes (including content etc) to your Github repo
