@@ -19,7 +19,7 @@ library(blogdown)
 blogdown::install_hugo(force = TRUE)
 blogdown::new_site()
 install_theme("yoshiharuyamashita/blackburn", theme_example = TRUE, update_config = TRUE)
-remember to change the baseurl = "/" parameter in the config.toml file
+remember to change the baseurl = "/" parameter in the config.toml file*
 
 
 
