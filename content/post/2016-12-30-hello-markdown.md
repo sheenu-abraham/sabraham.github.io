@@ -3,7 +3,7 @@ title: "Make your own blog with blogdown"
 tags:
 - R
 - blogdown
-date: '2020-02-08T21:49:57-07:00'
+date: '2020-02-08'
 ---
 
 
