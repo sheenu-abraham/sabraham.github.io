@@ -111,7 +111,7 @@ history_df.loc[:, ['binary_accuracy', 'val_binary_accuracy']].plot(title="Accura
 ```
 
     
-![png](output_3_2.png)
+![png]('./output_3_2.png')
     
 
 
