@@ -3,7 +3,7 @@ title: "The Data Landscape in 2023: Evolutions, Revolutions, and the Path Forwar
 tags:
 - R
 - blogdown
-date: "2023-01-05"
+date: "2023-06-05"
 ---
 
 Welcome back, data enthusiasts!
