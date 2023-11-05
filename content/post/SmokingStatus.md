@@ -111,13 +111,14 @@ history_df.loc[:, ['binary_accuracy', 'val_binary_accuracy']].plot(title="Accura
 ```
 
     
-![png]('./output_3_2.png')
+<img src="output_3_2.png"
+     alt="Cross Entropy icon"
+     style="float: left; margin-right: 10px;" />
     
 
-
-
-    
-![png](output_3_3.png)
+<img src="output_3_3.png"
+     alt="Accuracy"
+     style="float: left; margin-right: 10px;" />
     
 
 
@@ -161,4 +162,4 @@ prediction_classes = [
 
 ```
 
-
+This will get you a score of 0.86174 in the leaderboard. 
