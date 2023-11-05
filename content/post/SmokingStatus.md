@@ -114,7 +114,10 @@ history_df.loc[:, ['binary_accuracy', 'val_binary_accuracy']].plot(title="Accura
 <img src="output_3_2.png"
      alt="Cross Entropy icon"
      style="float: left; margin-right: 10px;" />
-    
+
+```{r}
+knitr::include_graphics("output_3_2.png")
+``` 
 
 <img src="output_3_3.png"
      alt="Accuracy"
