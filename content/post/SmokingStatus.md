@@ -1,10 +1,12 @@
 ---
-title: "Starter Kaggle Code: Binary Prediction of Smoker Status using Bio-Signals"
+title: "Binary Prediction of Smoker Status using Bio-Signals"
 tags:
 - R
 - blogdown
 date: "2023-11-05"
 ---
+
+This starter code will help you with this Kaggle  https://www.kaggle.com/competitions/playground-series-s3e24
 
 ```python
 
@@ -109,14 +111,8 @@ history_df = pd.DataFrame(history.history)
 history_df.loc[:, ['loss', 'val_loss']].plot(title="Cross-entropy")
 history_df.loc[:, ['binary_accuracy', 'val_binary_accuracy']].plot(title="Accuracy")
 ```
-
-    
-![png]('./output_3_2.png')
-    
-
-
-
-    
+![png](./output_3_2.png)
+ 
 ![png](content/post/output_3_3.png)
     
 
