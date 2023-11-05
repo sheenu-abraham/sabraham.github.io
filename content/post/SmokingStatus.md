@@ -111,9 +111,10 @@ history_df = pd.DataFrame(history.history)
 history_df.loc[:, ['loss', 'val_loss']].plot(title="Cross-entropy")
 history_df.loc[:, ['binary_accuracy', 'val_binary_accuracy']].plot(title="Accuracy")
 ```
-![png](./output_3_2.png)
+
+![png](output_3_2.png)
  
-![png](content/post/output_3_3.png)
+
     
 
 

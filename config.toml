@@ -59,3 +59,10 @@ paginate = 10
   github = "sabraham-sea"
   #stackoverflow = "*"
   linkedin = "in/sheenuabraham/"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
