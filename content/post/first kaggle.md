@@ -3,7 +3,7 @@ title: "My first Kaggle Experience"
 tags:
 - R
 - blogdown
-date: '2020-02-27'
+date: "2020-02-27"
 ---
 
 Two weekends ago, I decided to break my inhibitions about Kaggle and Kagglers and decided to do a hackathon hosted by Wids-
