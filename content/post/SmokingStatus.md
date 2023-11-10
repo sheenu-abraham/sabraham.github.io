@@ -6,9 +6,9 @@ tags:
 date: "2023-11-05"
 ---
 
-This starter code will help you with this Kaggle  https://www.kaggle.com/competitions/playground-series-s3e24
+This starter code will help you with this Kaggle <https://www.kaggle.com/competitions/playground-series-s3e24>
 
-```python
+``` python
 
 import pandas as pd
 pd.set_option('display.max_rows', 500)
@@ -17,11 +17,11 @@ train=pd.read_csv('./train.csv')
 train.head()
 ```
 
-```python
+``` python
 train.describe()
 ```
 
-```python
+``` python
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -54,11 +54,9 @@ X_train = preprocessor.fit_transform(X_train)
 X_valid = preprocessor.transform(X_valid)
 
 input_shape = [X_train.shape[1]]
-
 ```
 
-
-```python
+``` python
 from tensorflow import keras
 from tensorflow.keras import layers
 
@@ -112,45 +110,38 @@ history_df.loc[:, ['loss', 'val_loss']].plot(title="Cross-entropy")
 history_df.loc[:, ['binary_accuracy', 'val_binary_accuracy']].plot(title="Accuracy")
 ```
 
-
-
-```python
+``` python
 # Predict on test
 test=pd.read_csv('./test.csv')
 test.head()
 ```
 
-
-
-```python
+``` python
 test_df = preprocessor.transform(test)
 ```
 
-
-```python
+``` python
 from tensorflow.keras.models import Sequential, save_model, load_model
 # Save the model
 filepath = './saved_model'
 save_model(model, filepath)
 ```
 
-```python
+``` python
 predictions = model.predict(test_df)
-
 ```
-```python
+
+``` python
 sub=test[['id']]
 df = pd.DataFrame(predictions, columns=['smoking'])
 submission=pd.concat([sub, df], axis=1)
 submission.to_csv('submission.csv',index=False)
 ```
 
-
-```python
+``` python
 prediction_classes = [
     1 if prob > 0.5 else 0 for prob in np.ravel(predictions)
 ]
-
 ```
 
-This will get you a score of 0.86174 in the leaderboard. 
+This will get you a score of 0.86174 in the leaderboard.
